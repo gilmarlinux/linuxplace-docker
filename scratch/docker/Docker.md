@@ -26,7 +26,7 @@ template: conteudo
 # Agenda
 
 ### Dia 1
- - Por que usar Docker Container?
+ - Por que usar Containers?
  - Instalando em Linux
  - Docker em Windows
  - Docker Containers
@@ -41,7 +41,7 @@ template: conteudo
 
 ---
 
-# Por que usar Docker container?
+# Por que usar containers?
 ### 300% time to market
 ???
 - Agilidade de implantação de novas soluções
