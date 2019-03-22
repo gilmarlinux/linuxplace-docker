@@ -26,7 +26,7 @@ template: conteudo
 # Agenda
 
 ### Dia 1
- - Por que usar Containers?
+ - Por que usar Docker Container?
  - Instalando em Linux
  - Docker em Windows
  - Docker Containers
@@ -35,13 +35,13 @@ template: conteudo
 
 ### Dia 2
  - Docker Compose
- - Docker network
+ - Docker Network
  - Docker Volumes
  - Docker Security
 
 ---
 
-# Por que usar Containers?
+# Por que usar Docker container?
 ### 300% time to market
 ???
 - Agilidade de implantação de novas soluções
@@ -167,7 +167,7 @@ template: conteudo
 ---
 
 # O que é um container
-### Virtualização de Hardware
+### Virtualização de Sistema
 ### Virtualização de Sistema Operacional
 .nb-table[
 <table>
@@ -425,6 +425,13 @@ $ docker run -d -p 8080:80 curso:latest
 ```
 
 ---
+<<<<<<< HEAD
+# Build layers
+.full-image-height[![Docker Model](img/build.svg)]
+
+---
+=======
+>>>>>>> 34012599e9e454fdfbe391a99f64a7d6d9a56e58
 # Comandos de image build
 - docker build -t curso:latest .
 - -t tag
@@ -432,7 +439,7 @@ $ docker run -d -p 8080:80 curso:latest
 
 ---
 
-# inspect image
+# Inspect image
 ```bash
 $ docker image inspect curso
 $ dive curso
@@ -536,14 +543,14 @@ template: conteudo
 
 ---
 
-# runc
+# Runc
 - implementação de wrapper para  libcontainer
 - especificacão OCI
 - Morre após a carga
 - Problema de segurança em 2019
 
 --
-### shim
+### Shim
  - captura stdin, stdout dos processos
  - permite os containers funcionarem detached
 
